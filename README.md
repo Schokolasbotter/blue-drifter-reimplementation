@@ -1,14 +1,19 @@
-# Blue Drifter
+# Blue Drifter — Re-implementation Study
 
 > A first-person bounty-hunting game where the hard part isn't the shooting — it's making sure
 > you've found the right person.
 
-> ⚠️ **Attribution — this is not my design.** Blue Drifter is a student re-implementation of a
-> game concept created by [Sokpop Collective](https://sokpop.co). The design is theirs: the
-> bounty-hunting loop, and the central idea that you are given a name rather than a face and
-> must identify your target before engaging. This was built as a coursework exercise in
-> reproducing an existing design's systems in Unity. **The code and systems implementation
-> below are my own work; the game design is not.**
+> ⚠️ **Attribution — this is not my game.** This is a student re-implementation of
+> **[Blue Drifter](https://sokpop.itch.io/blue-drifter)** by
+> [Sokpop Collective](https://sokpop.co). The game, its title, and its design are entirely
+> theirs — including the bounty-hunting loop and its central idea that you are given a *name*
+> rather than a face, and must identify your target before engaging.
+>
+> This repository was built as a coursework exercise in reproducing an existing design's
+> systems in Unity. **The C# implementation documented below is my own work. The game design
+> and the name are not.**
+>
+> ▶ **Play the original:** https://sokpop.itch.io/blue-drifter — please support Sokpop.
 
 **Platform:** PC / WebGL · **Engine:** Unity · **Language:** C# · **Role:** Solo
 **Module:** Games Programming 1, Coursework 1 — MSc Computer Games Programming
@@ -111,9 +116,12 @@ systems, and a rain manager with ambient audio.
 
 ## Credits
 
-Original game design by [Sokpop Collective](https://sokpop.co). This repository is an
-independent student re-implementation built for coursework — all Unity implementation, C#
-systems, and AI code here are mine; the design they realise is not.
+**Blue Drifter** is a game by [Sokpop Collective](https://sokpop.co) — original available at
+https://sokpop.itch.io/blue-drifter. All design credit belongs to them.
+
+This repository is an independent student re-implementation built for coursework. The Unity
+implementation, C# systems, and AI code documented here are my own work; the design they
+realise is not. No affiliation with or endorsement by Sokpop Collective is claimed.
 
 ---
 
