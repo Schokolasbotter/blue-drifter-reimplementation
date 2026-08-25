@@ -3,6 +3,13 @@
 > A first-person bounty-hunting game where the hard part isn't the shooting — it's making sure
 > you've found the right person.
 
+> ⚠️ **Attribution — this is not my design.** Blue Drifter is a student re-implementation of a
+> game concept created by [Sokpop Collective](https://sokpop.co). The design is theirs: the
+> bounty-hunting loop, and the central idea that you are given a name rather than a face and
+> must identify your target before engaging. This was built as a coursework exercise in
+> reproducing an existing design's systems in Unity. **The code and systems implementation
+> below are my own work; the game design is not.**
+
 **Platform:** PC / WebGL · **Engine:** Unity · **Language:** C# · **Role:** Solo
 **Module:** Games Programming 1, Coursework 1 — MSc Computer Games Programming
 
@@ -99,6 +106,14 @@ systems, and a rain manager with ambient audio.
   (`targetName1..3`, `targetDestination1..3`). A `Contract` ScriptableObject with a list would
   have made adding a fourth contract a data change rather than a code change — which is exactly
   the lesson I applied on later projects.
+
+---
+
+## Credits
+
+Original game design by [Sokpop Collective](https://sokpop.co). This repository is an
+independent student re-implementation built for coursework — all Unity implementation, C#
+systems, and AI code here are mine; the design they realise is not.
 
 ---
 
